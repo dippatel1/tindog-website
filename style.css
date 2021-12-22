@@ -1,0 +1,270 @@
+/* <----------------------body elements-------------------------> */
+
+body {
+    text-align: center;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI';
+}
+
+
+/* <----------------------------------------------> */
+
+.big-heading {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 4%;
+}
+
+
+/*<------------------------- title section-------------------------------------> */
+
+#title {
+    background-color: rgb(252, 82, 107);
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 16%;
+}
+
+
+/* ---Nevbar---- */
+
+.navbar {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 8px;
+}
+
+.navbar-toggler {
+    background-color: black;
+}
+
+.dropdown-menu {
+    border-radius: 20px;
+    border: solid rgb(252, 82, 107);
+}
+
+.dropdown-item:hover {
+    color: rgb(252, 82, 107);
+}
+
+.nav-link:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+
+
+/* download button -------------- */
+
+.download_btn {
+    margin: 5% 2% 5% 4.7%;
+}
+
+
+/* image of first page */
+
+.title_image {
+    transform: rotate(20deg);
+    position: absolute;
+    height: 450px;
+    width: 220px;
+}
+
+
+/*<------------------------ feature section--------------------------------> */
+
+#features {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    color: black;
+    background-color: white;
+}
+
+.icon_color {
+    color: rgb(240, 166, 56);
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+
+.icon_color:hover {
+    color: red;
+}
+
+
+/* <--------------------------testimonials-secton--------------------------> */
+
+#testimonials {
+    background-color: rgba(6, 119, 122, 0.801);
+}
+
+.testimonial-div {
+    padding: 3% 6% 6% 6%;
+    background-color: rgb(14, 13, 13);
+    height: 28%;
+    width: 60%;
+    margin: 5% auto 5% auto;
+    border-radius: 30px;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 180%;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    margin: 40px auto 20px auto;
+    border-radius: 100%;
+    border: solid 5px;
+    height: 23%;
+    width: 23%;
+    display: block;
+}
+
+
+/* <------------------------------------presss-ection-----------------------------> */
+
+#press {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(6, 119, 122, 0.801);
+}
+
+.press-img {
+    padding: 20px 20px;
+    height: 25%;
+    width: 18%;
+}
+
+
+/*<---------------------------- Pricing------------------------------> */
+
+#pricing {
+    color: rgb(3, 3, 3);
+}
+
+.card {
+    margin: 5% 16% 5% 16%;
+    border-radius: 10%;
+}
+
+
+/* <---------------------------cta section---------------------------------------> */
+
+#cta {
+    background-color: rgb(252, 82, 107);
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.cta_h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+/* <----------------------------footer-section-------------------------------------> */
+
+#footer {
+    color: black;
+}
+
+.social_media {
+    margin: 100px auto 10px auto;
+    font-size: 30px;
+    word-spacing: 20px;
+    font-weight: bold;
+}
+
+
+/* Responsiveness using media query */
+
+@media (max-width:900px) {
+    h1 {
+        font-size: 36px;
+    }
+    #title {
+        text-align: center;
+    }
+    .title_image {
+        height: 250px;
+        width: 120px;
+        padding-top: 30px;
+        position: static;
+        transform: rotate(0deg);
+    }
+    /* feature section */
+    .icon_color {
+        color: seagreen;
+        font-size: 45px;
+        padding-bottom: 10px;
+    }
+    .icon_color:hover {
+        color: red;
+    }
+    .co {
+        padding: 1.5rem 0.7rem 0.7rem 0.7rem;
+        text-align: center;
+    }
+    /* Testimonials */
+    .testimonial-div {
+        padding: 2% 4% 4% 4%;
+        background-color: black;
+        height: 28%;
+        width: 75%;
+        margin: 10% auto 13% auto;
+        border-radius: 30px;
+        border: solid rgb(252, 82, 107) 3px;
+    }
+    .testimonial-text {
+        font-weight: bold;
+        font-size: 110%;
+        line-height: 1.5;
+    }
+    .testimonial-img {
+        margin: 20px auto 20px auto;
+        border-radius: 100%;
+        border: solid rgb(234, 241, 241) 2px;
+        height: 36%;
+        width: 36%;
+        display: block;
+    }
+    /* press section  */
+    #press {
+        background-color: white;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .press-img {
+        padding: 20px 20px;
+        height: 25%;
+        width: 38%;
+    }
+    /* pricing */
+    .card {
+        padding: 0;
+        margin: 10%;
+    }
+}
